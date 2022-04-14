@@ -1,3 +1,6 @@
-DIFFERENCE BETWEEN STATIC AND NOT-STATIC :-
+DIFFERENCE BETWEEN STATIC AND NOT-STATIC:-
 
-Static -:when we give any method and value static this mean
+Static -: when we give any method and value static this means it's always stored in a ram with the main function when run. when we want this static method then we always get by a ram when anyone changes this value its change for all the access point.
+non-static-:its not stored with the main function .when we want this value and method it always makes a new area then point 
+exaple:-we want to create a system for store book detail bookName, bookId and subject same for all books. than bookName and bookId is non-static or subject should we static;
+  
