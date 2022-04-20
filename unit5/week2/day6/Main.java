@@ -111,4 +111,7 @@ class Hosteller1 extends Student1{
 	public void displayDetail() {
 		System.out.println("Student Details: "+this.getStudentId()+this.getName()+this.getDepartmentId()+this.getGender()+this.getPhone()+this.hotelName+this.roomNumber);
 	}
+	public String toString() {
+	      return this.getStudentId()+" "+this.getName()+" "+this.getDepartmentId()+" "+this.getGender()+" "+this.getPhone()+" "+this.hotelName+" "+this.roomNumber;
+	}
 }
