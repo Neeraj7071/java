@@ -39,6 +39,7 @@ public class Main {
 		}
 		Main.getHostellerDetails(h1, phone, roomNumber);
 		h1.displayDetail();
+		System.out.println(h1);
 	}
 }
 class Student1 {
