@@ -1,0 +1,3 @@
+'this' and 'super' both are different methods.
+when we use 'this' it only accesses our class methods and variables inside the non-static method. And 'this' access presents Object public method and variable only.
+super only use for call parents object method and variable.  
