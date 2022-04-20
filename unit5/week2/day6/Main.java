@@ -39,6 +39,7 @@ public class Main {
 		}
 		Main.getHostellerDetails(h1, phone, roomNumber);
 		h1.displayDetail();
+		System.out.println(h1);
 	}
 }
 class Student1 {
@@ -110,5 +111,8 @@ class Hosteller1 extends Student1{
 	}
 	public void displayDetail() {
 		System.out.println("Student Details: "+this.getStudentId()+this.getName()+this.getDepartmentId()+this.getGender()+this.getPhone()+this.hotelName+this.roomNumber);
+	}
+	public String toString() {
+	      return this.getStudentId()+" "+this.getName()+" "+this.getDepartmentId()+" "+this.getGender()+" "+this.getPhone()+" "+this.hotelName+" "+this.roomNumber;
 	}
 }
