@@ -23,8 +23,10 @@ public class MainStudent {
 			if(ans.charAt(0)=='y')
 				check=false;
 		}
+		Set<Integer> existing = new HashSet<>();
 		students.entrySet()
 		  .stream()
+		  .filter(entry -> existing.add(entry.getValue().getRoll()))
 		  .sorted(Map.Entry.comparingByValue((o1, o2) ->{
 			  if(o1.getMarks()>o2.getMarks())
 					return -1;
