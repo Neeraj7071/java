@@ -5,7 +5,7 @@ public class Mobile {
 	public String addMobile(String company, String model) {
 		Set<String> set=this.mobiles.keySet();
 		for(String i:set) {
-			if(i==company) {
+			if(i.equals(model)) {
 				ArrayList<String> a=this.mobiles.get(i);
 				a.add(model);
 				this.mobiles.put(company, a);
